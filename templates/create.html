@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/all.css') }}">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    </head>
+    <body class="bg-dark">
+
+    <form >
+        <div class="d-flex justify-content-center position-absolute top-50 start-50 translate-middle   row ">
+            <div class="my-2">
+                <label class="col-2 text-white ">first name </label>
+                <input class="w-75 rounded-2">
+            </div>
+            <div class="my-2">
+                 <label class="col-2 text-white">last name</label>
+                 <input class="w-75 rounded-2 ">
+            </div>
+            <div class="my-2" >
+                <label class="col-2 text-white">email</label>
+                <input class="w-75 rounded-2 ">
+           </div>
+           <div class="my-2">
+            <label class="col-2 text-white">password</label>
+            <input class="w-75 rounded-2 ">
+       </div>
+            <button type="submit" class="bg-info w-25 rounded-3 p-2 mt-4">signup</button>
+        </div>
+        
+    </form>
+    </body>
+</html>

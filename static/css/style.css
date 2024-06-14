@@ -1,0 +1,96 @@
+.home{
+    background-image: url(../image/pexels-photo-7516325.webp);
+    background-size: cover;
+    height: 100%;
+    
+}
+
+.home .layer{
+    background-color: rgba(0, 0, 0, 0.571) ;
+       width: 100%;
+    height: fit-content;
+    
+
+}
+.content{
+    position: absolute;
+    top:35%;
+    left:10%;
+}
+
+.navbar-nav{
+    font-size: large;
+}
+
+.login input{
+    width:95%;
+    border: 1px solid;
+   border-top: 0px;
+   border-right: 0px;
+   border-left: 0px;
+    border-color:   white;
+    padding: 5px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 100;
+    box-shadow: 0 .5rem 1rem rgba(255, 255, 255, 0.215);
+}
+
+.btn{
+    font-size: 16px;
+    font-weight: 100px;
+    border-color: rgb(10, 10, 70);
+    background-color: white;
+    color: rgb(12, 12, 35)
+    
+}
+.monda{
+    position: relative;
+    overflow: hidden;
+    /* transition:all 5s; */
+    
+
+}
+
+label{
+    width:100px;
+}
+.navbar{
+   background-color: rgba(0, 0, 0, 0.5); 
+    
+}
+.remonda{
+    position: absolute;
+    bottom: -30px;
+    transition:all 1s;
+    height: 30px;
+    width: 92%;
+
+}
+
+.monda:hover{
+    .remonda{
+        bottom:0px;
+
+    }
+}
+
+
+.tutorial{
+    background-color: #44424290;
+}
+
+.faq{
+    background-color: rgba(221, 221, 221, 0.83);
+
+}
+
+.img{
+    height: 200px;
+}
+
+.fouter{
+    background-color: rgba(0, 0, 0, 0.121); 
+}

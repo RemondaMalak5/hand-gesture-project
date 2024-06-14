@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/all.css') }}">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    </head>
+    <body class="bg-dark">
+
+    <section>
+
+        <div class="container  pt-5  text-white">
+            <div class="login  w-75  mx-auto px-5 pt-5 text-center">
+                <h1 class="py-5 fw-bold"> Login</h1>
+                <div class="row  g-3 px-3 ">
+                        <div>
+                            <label >Email</label>
+                            <input type="email" id="email" placeholder="Enter Email" class=" w-75 rounded ">
+                        </div>
+                        <div>
+                            <label >Password</label>
+                            <input type="password" id="pass" placeholder="Enter password" class=" w-75 rounded ">
+                        </div>
+                </div>
+                <button class="btn mt-lg-4 ms-5 w-25" id="btn">login</button>
+            </div>
+        </div>
+    </section>
+<script>document.getElementById("btn").addEventListener("click", function () {
+
+        // alert("Button clicked!");
+        window.location.href = 'camera.html'
+      });
+      </script>
+    
+    </body>
+</html>
